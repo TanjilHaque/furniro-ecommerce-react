@@ -4,4 +4,11 @@
 @theme {
   --color-primary: #b88e2f;
   --font-poppins: "Poppins", "sans-serif";
+  --tracking-3px: 3px;
+}
+
+.homegrid {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(8,1fr);
 }
